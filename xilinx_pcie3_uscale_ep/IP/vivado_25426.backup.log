@@ -1,0 +1,133 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jun 23 19:56:38 2016
+# Process ID: 25426
+# Current directory: /home/sanjayr/projects/PCIe_ICAP_ultraScale/srai_test5_PR_NON_TANDEM/xilinx_pcie3_uscale_ep/IP
+# Command line: vivado -source vivado_project.tcl
+# Log file: /home/sanjayr/projects/PCIe_ICAP_ultraScale/srai_test5_PR_NON_TANDEM/xilinx_pcie3_uscale_ep/IP/vivado.log
+# Journal file: /home/sanjayr/projects/PCIe_ICAP_ultraScale/srai_test5_PR_NON_TANDEM/xilinx_pcie3_uscale_ep/IP/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source vivado_project.tcl
+# source ../device_type.tcl
+## proc DEVICE_TYPE {} {
+##     return xcku040-ffva1156-2-e
+## }
+# create_project project_X project_X -part [DEVICE_TYPE] 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/applications/Xilinx/Vivado/2016.2/data/ip'.
+# add_files -fileset sources_1 -norecurse {
+# ../IP/ila_ICAP/ila_ICAP.xci
+# ../IP/vio_x8/vio_x8.xci
+# ../IP/pcie3_7x_0_fastConfigFIFO/pcie3_7x_0_fastConfigFIFO.xci
+# ../IP/pcie3_ultrascale_0/pcie3_ultrascale_0.xci
+# }
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [xilinx.com:ip:pcie3_ultrascale:4.2-2148] pcie3_ultrascale_0: 11 - false 
+INFO: [Common 17-14] Message 'xilinx.com:ip:pcie3_ultrascale:4.2 2148' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 23 22:07:13 2016...
